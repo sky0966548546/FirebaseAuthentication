@@ -60,7 +60,7 @@ Google 的登入有二種模式，一種是跳出一個 Popup 的視窗，在視
 
 ### **Popup 介面**
 
-![Popup 介面](https://i.imgur.com/kyKwKCt.png)
+![Popup 介面](https://i.imgur.com/7zrS5ws.png)
 
 ### **Popup 範本**
 
