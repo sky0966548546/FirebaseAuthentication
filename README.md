@@ -58,6 +58,10 @@ Firebase 專案及應用程式建立完後，從左側選單點選「Authenticat
 # Google 登入
 Google 的登入有二種模式，一種是跳出一個 Popup 的視窗，在視窗中讓使用者登入自己的 Google 帳號；另一種是原頁跳轉到 Google 的登入頁面，登入後回到原始頁面用 function 去取得使用者資料，我所使用的是使用 Popup 的視窗來進行登入
 
+### **Popup 介面**
+
+![Popup 介面](https://i.imgur.com/kyKwKCt.png)
+
 ### **Popup 範本**
 
 ```javascript=
