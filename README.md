@@ -16,7 +16,7 @@
 
 照著說明複制這一段的程式碼至 HTML 檔案中的 **<body>**  的最下方處
 
-```htmlmixed=
+```htmlembedded=
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
 <script type="module">
@@ -98,7 +98,7 @@ user.uid: Firebase Auth 派給這個使用者的 User ID
 
 ![登入介面](https://i.imgur.com/dKVwLlo.png)
 
-```
+```htmlembedded=
 <button id="signIn" type="button" class="btn waves-effect green"><i class="fa fa-google-plus"></i> Google 登入</button>
 ```
 
@@ -108,7 +108,7 @@ user.uid: Firebase Auth 派給這個使用者的 User ID
 
 ![登入成功介面](https://i.imgur.com/XO3nTst.png)
 
-```
+```htmlembedded=
 <h4><i class="fa fa-snowflake-o"></i> 歡迎 !!! ${name}</h4>
 <div class="card white">
     <div class="card-content blue-text">
