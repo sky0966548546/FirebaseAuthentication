@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登入系統</title>
+    <link rel="icon" type="image/x-icon" href="https://kiriqua.com/assets/images/logo/logo.png"/>
+    <link rel="shortcut icon" type="image/x-icon" href="https://kiriqua.com/assets/images/logo/logo.png"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container valign-wrapper" id="web">
+        <div class="row center-align">
+            <!-- Login -->
+            <div class="col s12" id="login">
+                <h4><i class="fa fa-wheelchair-alt"></i> 第三方登入系統</h4>
+                <div class="card white">
+                    <div class="card-content blue-text">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                        </div>
+                        輸入框都是假的
+                    </div>
+                    <div class="card-action">
+                        <button id="signIn" type="button" class="btn waves-effect green"><i class="fa fa-google-plus"></i> Google 登入</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Finish -->
+            <div class="col s12" id="finish"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script type="module" src="./js/firebaseConfig.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
