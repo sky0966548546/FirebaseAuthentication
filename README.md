@@ -170,7 +170,7 @@ function SignIn() {
 function SignOut() { 
     firebase.auth().signOut().then(() => { 
         window.alert("登出成功，將重新整理一次頁面！"), 
-        window.location.reload();   // 重新整理頁頁
+        window.location.reload();   // 重新整理頁面
     }).catch(e => console.log(JSON.stringify(e)))   // Print Error
 }
 ```
@@ -183,7 +183,7 @@ function DeleteUser() {
     let e = firebase.auth().currentUser; 
     e.delete().then(() => { 
         window.alert("刪除成功，將重新整理一次頁面！");
-        window.location.reload();
+        window.location.reload();   // 重新整理頁面
     }).catch(e => console.log(JSON.stringify(e)))   // Print Error
 } 
 ```
